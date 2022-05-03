@@ -20,4 +20,6 @@ called **fetch-upstream**).
 
 ### Sharing your work
 
+![fork_from_personal_to_lab](images/fork_from_personal_to_lab.png)
+
 ### Updating existing work
