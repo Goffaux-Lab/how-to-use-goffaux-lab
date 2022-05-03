@@ -28,9 +28,9 @@ called **fetch-upstream**).
 In order to make one of your personal repositories appear on the Goffaux-Lab
 page, go to your repository:
 
- 1. Click the **fork** button
- 2. Make sure the Goffaux-Lab is selected as the destination
- 3. Click 'create fork'
+ 1. Click the **fork** button.
+ 2. Make sure the Goffaux-Lab is selected as the destination.
+ 3. Click 'create fork'.
 
 ![fork_from_personal_to_lab](images/fork_from_personal_to_lab.png)
 
@@ -52,7 +52,7 @@ If we make a **commit** (i.e. add some more code or fix a bug) in the
 at the **fork** on Goffaux-Lab, we see that:
 
  1. The repo knows that it is now 1 commit behind the **upstream**.
- 2. Have available options with **fetching upstream**
+ 2. Have available options with **fetching upstream**.
  3. We can compare the differences between the **fork** and the **upstream**.
  4. Or we can immediately **fetch** those **commits** and **merge** them into
     the **fork** (i.e. synchronise the repositories).
