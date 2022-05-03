@@ -3,6 +3,9 @@ This is the lab's shared github space. We should upload any code and documents
 that could be useful for anyone in the lab to be able to use. In the following,
 the **bold** words are git specific terms which can be googled to learn more.
 
+The guide assumes you already know how to make changes to a repository on your
+own account (i.e. the three stages: add, commit, push). 
+
 ## Overview of the workflow Github repositories can then be **forked** between
 accounts (i.e. create a copy) so that others can use them too. The original
 copy is called the **upstream**. So you can **fork** a repository from your
