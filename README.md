@@ -58,4 +58,9 @@ Comparing the files looks like this:
 
 ![compare_upstream](images/compare_upstream.png)
 
-### Updating existing work
+### Using/Updating existing work
+If you want to use a repository on Goffaux-Lab, go to the repository and
+**fork** it to your personal account. Then you can **clone** the repository
+from your own account onto your local machine. You are now free to make
+**commits** to the **fork** of the repository.
+
