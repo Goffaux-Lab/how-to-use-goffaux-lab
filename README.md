@@ -6,11 +6,12 @@ the **bold** words are git specific terms which can be googled to learn more.
 The guide assumes you already know how to make changes to a repository on your
 own account (i.e. the three stages: add, commit, push). 
 
-## Overview of the workflow Github repositories can then be **forked** between
-accounts (i.e. create a copy) so that others can use them too. The original
-copy is called the **upstream**. So you can **fork** a repository from your
-personal github account the Goffaux-Lab account, or **fork** a repository from
-Goffaux-Lab account to yours.
+## Overview of the workflow 
+Github repositories can then be **forked** between accounts (i.e. create a
+copy) so that others can use them too. The original copy is called the
+**upstream**. So you can **fork** a repository from your personal github
+account the Goffaux-Lab account, or **fork** a repository from Goffaux-Lab
+account to yours.
 
 On your personal github account you can make changes (or **commits**) to the repositories as you
 please. These **commits** can easily be synchronised back to the Goffaux-Lab
