@@ -4,7 +4,8 @@ that could be useful for anyone in the lab to be able to use. In the following,
 the **bold** words are git specific terms which can be googled to learn more.
 
 The guide assumes you already know how to make changes to a repository on your
-own account (i.e. the three stages: add, commit, push). 
+own account (i.e. the three stages: add, commit, push). If you want a guide for
+that see [here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
 
 ## Overview of the workflow 
 Github repositories can be **forked** between accounts (i.e. create a copy) so
