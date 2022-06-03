@@ -16,8 +16,8 @@ own account (i.e. the three stages: add, commit, push) - if you want a guide
 for that see
 [here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
 
-#### Github repositories can be private or public. [Deleting your repository or
-changing its visibility affects that repository's
+#### Github repositories can be private or public. 
+[Deleting your repository or changing its visibility affects that repository's
 forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#changing-a-private-repository-to-a-public-repository).
 
 ##### Fairly obvious: 
