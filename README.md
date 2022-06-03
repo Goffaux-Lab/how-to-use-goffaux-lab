@@ -116,7 +116,7 @@ Scroll down to the bottom of the page and do the following:
 Once the above is complete, the repository will appear on the Goffaux-Lab's
 github account and not on your personal account. The last thing to do is to
 **fork** the repository so that you have a copy on your personal account. This
-is detailed in the section below.
+is detailed in the next section.
 
 ### Using/Updating existing work (fork, commit, pull request)
 If you want to use a repository that someone else created on Goffaux-Lab, go to
