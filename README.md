@@ -95,9 +95,11 @@ Comparing the files looks like this:
 
 ### Sharing your *private* work (transfer, fork, commit, pull request)
 Github will not allow us to fork *private* repositories. But we can
-**transfer** them over to the Goffaux-Lab account, and then simply **fork** the
-repository back to our account. This will make the Goffaux-Lab repository the
-**upstream**.
+**transfer** them over to the Goffaux-Lab account. This will mean that the
+repository will appear on the Goffaux-Lab's github account as the **upstream**
+and no longer appear on your personal account. To get a copy back on your
+personal account, just **fork** the repository. This is detailed in the 
+[next section](#usingupdating-existing-work-fork-commit-pull-request).
 
 In order to make one of your personal *private* repositories appear on the
 Goffaux-Lab page, go to the settings tab on your *private* repository:
@@ -113,18 +115,13 @@ Scroll down to the bottom of the page and do the following:
 
 ![transfer_ownership](images/transfer_ownership.png)
 
-Once the above is complete, the repository will appear on the Goffaux-Lab's
-github account and not on your personal account. The last thing to do is to
-**fork** the repository so that you have a copy on your personal account. This
-is detailed in the next section.
-
 ### Using/Updating existing work (fork, commit, pull request)
-If you want to use a repository that someone else created on Goffaux-Lab, go to
-the repository and **fork** it to your personal account. You will probably want
-to **clone** the repository from your own account onto your local machine
-(unless you are following the steps from the last section, in which case you
-may already have a local clone). You are now free to make **commits** to your
-**fork** of the repository.
+If you want to use a repository that is on Goffaux-Lab, go to the repository
+and **fork** it to your personal account. You will probably want to **clone**
+the repository from your own account onto your local machine (unless you are
+following the steps from the last section, in which case you may already have a
+local clone). You are now free to make **commits** to your **fork** of the
+repository.
 
 Once you've made some new **commits** to the **fork** that improve the version
 that is on Goffaux-Lab, you might like to share it with the lab. To do this you
