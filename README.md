@@ -53,8 +53,8 @@ with the updated Goffaux-Lab account (this is called **fetch upstream**).
 
 ### Sharing your *public* work (fork, commit, fetch upstream)
 Note: This will only work for your *public* repositories. To share a *private*
-repository with the lab, see [below](#sharing-your-private-work-fork-transfer-commit-fork-pull-request).
-                                      
+repository with the lab, see [below](#sharing-your-private-work-transfer-fork-commit-pull-request).
+                                     
 In order to make one of your personal *public* repositories appear on the
 Goffaux-Lab page, go to your *public* repository:
 
