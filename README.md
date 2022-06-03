@@ -1,4 +1,12 @@
 # How to use Goffaux-Lab
+## Table of contents
+* [General comments](#general-comments)
+* [Overview of the workflow](#overview-of-the-workflow)
+    * [Sharing your *public* work (fork, commit, fetch upstream)](#sharing-your-public-work-fork-commit-fetch-upstream)
+    * [Sharing your *private* work (transfer, fork, commit, pull request)](#sharing-your-private-work-transfer-fork-commit-pull-request)
+    * [Using/Updating existing work (fork, commit, pull request)](#usingupdating-existing-work-fork-commit-pull-request)
+
+## General comments
 This is the lab's shared github space. We should upload any code and documents
 that could be useful for anyone in the lab to be able to use. In the following,
 the **bold** words are git specific terms which can be googled to learn more.
@@ -7,6 +15,22 @@ The guide assumes you already know how to make changes to a repository on your
 own account (i.e. the three stages: add, commit, push) - if you want a guide
 for that see
 [here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
+
+Github repositories can be private or public. [Deleting your repository or
+changing its visibility affects that repository's
+forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#changing-a-private-repository-to-a-public-repository).
+
+Fairly obvious: 
+
+On the Goffaux-Lab, private repositories can be seen and used by any member of
+the Goffaux-Lab, but not by anyone else. Public repositories can be seen and
+used by anyone in the world. 
+
+Not obvious: 
+
+If you delete a private repository, then this will also delete all the private
+forks of this repository on others' accounts. To avoid this, you can first
+change a repository's visibility from private to public, and then delete it.
 
 ## Overview of the workflow 
 Github repositories can be **forked** between accounts (i.e. create a copy) so
@@ -26,10 +50,13 @@ to the repository on the Goffaux-Lab account (i.e. submits a **pull request**
 that is accepted), you can easily synchronise your **fork** of the repository
 with the updated Goffaux-Lab account (this is called **fetch upstream**).
 
-### Sharing your work (fork, commit, fetch upstream)
 
-In order to make one of your personal repositories appear on the Goffaux-Lab
-page, go to your repository:
+### Sharing your *public* work (fork, commit, fetch upstream)
+Note: This will only work for your *public* repositories. To share a *private*
+repository with the lab, see [below](#sharing-your-private-work-fork-transfer-commit-fork-pull-request).
+                                      
+In order to make one of your personal *public* repositories appear on the
+Goffaux-Lab page, go to your *public* repository:
 
  1. Click the **fork** button.
  2. Make sure the Goffaux-Lab is selected as the destination.
@@ -40,8 +67,8 @@ page, go to your repository:
 Once the **fork** has completed, the repository will appear on the Goffaux-Lab
 page. Clicking on it we notice some things: 
 
- 1. It shows that the repository was originally forked from your personal account
-    (the original repository is the **upstream**).
+ 1. It shows that the repository was originally forked from your personal
+    account (the original repository is the **upstream**).
  2. We have the option to synchronise the **fork** by doing **fetch upstream**.
     This would copy over any new **commits** that have accumulated on the
     original repository since the **fork**.
@@ -66,16 +93,43 @@ Comparing the files looks like this:
 
 ![compare_upstream](images/compare_upstream.png)
 
+### Sharing your *private* work (transfer, fork, commit, pull request)
+Github will not allow us to fork *private* repositories. But we can
+**transfer** them over to the Goffaux-Lab account, and then simply **fork** the
+repository back to our account. This will make the Goffaux-Lab repository the
+**upstream**.
+
+In order to make one of your personal *private* repositories appear on the
+Goffaux-Lab page, go to the settings tab on your *private* repository:
+
+![pressing_settings](images/pressing_settings.png)
+
+Scroll down to the bottom of the page and do the following:
+
+ 1. Click on the 'transfer' button .
+ 2. Type 'Goffaux-Lab' as the place to transfer the repository to.
+ 3. Type whatever it tells you to confirm.
+ 4. Finalise the transfer.
+
+![pressing_settings](images/pressing_settings.png)
+
+Once the above is complete, the repository will appear on the Goffaux-Lab's
+github account and not on your personal account. The last thing to do is to
+**fork** the repository so that you have a copy on your personal account. This
+is detailed in the section below.
+
 ### Using/Updating existing work (fork, commit, pull request)
 If you want to use a repository that someone else created on Goffaux-Lab, go to
-the repository and **fork** it to your personal account. Then you can **clone**
-the repository from your own account onto your local machine. You are now free
-to make **commits** to your **fork** of the repository.
+the repository and **fork** it to your personal account. You will probably want
+to **clone** the repository from your own account onto your local machine
+(unless you are following the steps from the last section, in which case you
+may already have a local clone). You are now free to make **commits** to your
+**fork** of the repository.
 
-Once you've made some new **commits** to the **fork** that improve the original
-code, you might like to share it with the lab. To do this you must request that
-the **commits** are synchronised back to the **upstream** on Goffaux-Lab. This
-is done with a **pull request**:
+Once you've made some new **commits** to the **fork** that improve the version
+that is on Goffaux-Lab, you might like to share it with the lab. To do this you
+must request that the **commits** are synchronised back to the **upstream** on
+Goffaux-Lab. This is done with a **pull request**:
 
  1. Click the 'contribute' button.
  2. Click 'open pull request'.
