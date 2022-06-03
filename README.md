@@ -111,7 +111,7 @@ Scroll down to the bottom of the page and do the following:
  3. Type whatever it tells you to confirm.
  4. Finalise the transfer.
 
-![pressing_settings](images/pressing_settings.png)
+![transfer_ownership](images/transfer_ownership.png)
 
 Once the above is complete, the repository will appear on the Goffaux-Lab's
 github account and not on your personal account. The last thing to do is to
