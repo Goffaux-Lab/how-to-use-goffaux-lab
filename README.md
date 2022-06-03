@@ -16,17 +16,17 @@ own account (i.e. the three stages: add, commit, push) - if you want a guide
 for that see
 [here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
 
-Github repositories can be private or public. [Deleting your repository or
+#### Github repositories can be private or public. [Deleting your repository or
 changing its visibility affects that repository's
 forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#changing-a-private-repository-to-a-public-repository).
 
-Fairly obvious: 
+##### Fairly obvious: 
 
 On the Goffaux-Lab, private repositories can be seen and used by any member of
 the Goffaux-Lab, but not by anyone else. Public repositories can be seen and
 used by anyone in the world. 
 
-Not obvious: 
+##### Not obvious: 
 
 If you delete a private repository, then this will also delete all the private
 forks of this repository on others' accounts. To avoid this, you can first
