@@ -8,8 +8,7 @@
 
 ## General comments
 This is the lab's shared github space. We should upload any code and documents
-that could be useful for anyone in the lab to be able to use. In the following,
-the **bold** words are git specific terms which can be googled to learn more.
+that could be useful for anyone in the lab to be able to use.
 
 The guide assumes you already know how to make changes to a repository on your
 own account (i.e. the three stages: add, commit, push) - if you want a guide
@@ -38,6 +37,9 @@ forks of this repository on others' accounts. To avoid this, you can first
 change a repository's visibility from private to public, and then delete it.
 
 ## Overview of the workflow 
+In the following, the **bold** words are git specific terms which can be
+googled to learn more. 
+
 Github repositories can be **forked** between accounts (i.e. create a copy) so
 that others can use them too. The original copy is called the **upstream**. So
 you can **fork** a repository from your personal github account to the
@@ -125,7 +127,7 @@ If you want to use a repository that is on Goffaux-Lab, go to the repository
 and **fork** it to your personal account. You will probably want to **clone**
 the repository from your own account onto your local machine (unless you are
 following the steps from the last section, in which case you may already have a
-local clone). You are now free to make **commits** to your **fork** of the
+local **clone**). You are now free to make **commits** to your **fork** of the
 repository.
 
 Once you've made some new **commits** to the **fork** that improve the version
