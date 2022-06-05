@@ -13,10 +13,11 @@ the **bold** words are git specific terms which can be googled to learn more.
 
 The guide assumes you already know how to make changes to a repository on your
 own account (i.e. the three stages: add, commit, push) - if you want a guide
-for that see
-[here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
-There are some [slides on this workflow](images/using_github_as_a_lab.pdf) that
-were presented in journal club.
+for that (plus a general overview) [see
+here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
+There is also the free online book [Pro Git](https://git-scm.com/book/en/v2).
+Some [slides on the workflow](images/using_github_as_a_lab.pdf) described below
+that were presented in journal club.
 
 #### Github repositories can be private or public. 
 [Deleting your repository or changing its visibility affects that repository's
