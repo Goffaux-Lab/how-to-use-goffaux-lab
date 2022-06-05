@@ -17,7 +17,7 @@ for that (plus a general overview) [see
 here](https://github.com/Goffaux-Lab/documentation-and-snippets/blob/main/Git_Github_mini-workshop.pdf).
 There is also [this website](https://git-scm.com/) from which you can find
 anything git-related that you need (including the free online book [Pro
-Git](https://git-scm.com/book/en/v2)]. Some [slides motivating the
+Git](https://git-scm.com/book/en/v2). Some [slides motivating the
 workflow](images/using_github_as_a_lab.pdf) described below that were presented
 in journal club.
 
