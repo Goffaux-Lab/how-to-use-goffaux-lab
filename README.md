@@ -1,7 +1,7 @@
 # How to use Goffaux-Lab
 ## Table of contents
 * [General comments](#general-comments)
-    * [Github repositories can be private or public ](#github-repositories-can-be-private-or-public-)
+    * [Github repositories can be private or public ](#github-repositories-can-be-private-or-public)
     * [Where to store stimuli and experimental data?](#where-to-store-stimuli-and-experimental-data)
 * [Overview of the github workflow](#overview-of-the-workflow)
     * [Sharing your *public* work (fork, commit, fetch upstream)](#sharing-your-public-work-fork-commit-fetch-upstream)
