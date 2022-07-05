@@ -10,7 +10,8 @@
 
 ## General comments
 This is the lab's shared github space. We should upload any code and documents
-that could be useful for anyone in the lab to be able to use.
+that could be useful for anyone in the lab to be able to use. See [all open pull requests on Goffaux-Lab](https://github.com/pulls?user=Goffaux-Lab).
+
 
 The guide assumes you already know how to make changes to a repository on your
 own account (i.e. the three stages: add, commit, push) - if you want a guide
@@ -59,7 +60,7 @@ yours.
 On your personal github account you can make changes (or **'commits'**) to the
 repositories as you please. These **commits** can easily be synchronised back
 to the Goffaux-Lab account by doing **fetch upstream** or by submitting a
-**pull request**.
+**pull request**. See [all open pull requests on Goffaux-Lab](https://github.com/pulls?user=Goffaux-Lab).
 
 If you're working on a **fork** of a repository from Goffaux-Lab (i.e. you
 **forked** it to your personal account), and meanwhile someone makes **commits**
