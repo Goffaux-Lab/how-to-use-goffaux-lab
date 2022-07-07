@@ -1,7 +1,9 @@
 # How to use Goffaux-Lab
 ## Table of contents
 * [General comments](#general-comments)
-* [Overview of the workflow](#overview-of-the-workflow)
+    * [Github repositories can be private or public ](#github-repositories-can-be-private-or-public)
+    * [Where to store stimuli and experimental data?](#where-to-store-stimuli-and-experimental-data)
+* [Overview of the github workflow](#overview-of-the-workflow)
     * [Sharing your *public* work (fork, commit, fetch upstream)](#sharing-your-public-work-fork-commit-fetch-upstream)
     * [Sharing your *private* work (transfer, fork, commit, pull request)](#sharing-your-private-work-transfer-fork-commit-pull-request)
     * [Using/Updating existing work (fork, commit, pull request)](#usingupdating-existing-work-fork-commit-pull-request)
@@ -10,7 +12,8 @@
 
 ## General comments
 This is the lab's shared github space. We should upload any code and documents
-that could be useful for anyone in the lab to be able to use.
+that could be useful for anyone in the lab to be able to use. See [all open pull requests on Goffaux-Lab](https://github.com/pulls?user=Goffaux-Lab).
+
 
 The guide assumes you already know how to make changes to a repository on your
 own account (i.e. the three stages: add, commit, push) - if you want a guide
@@ -22,23 +25,31 @@ Git](https://git-scm.com/book/en/v2). Some [slides motivating the
 workflow](images/using_github_as_a_lab.pdf) described below that were presented
 in journal club.
 
-#### Github repositories can be private or public. 
+### Github repositories can be private or public 
 [Deleting your repository or changing its visibility affects that repository's
 forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#changing-a-private-repository-to-a-public-repository).
 
-##### Fairly obvious: 
+#### Fairly obvious: 
 
 On the Goffaux-Lab, private repositories can be seen and used by any member of
 the Goffaux-Lab, but not by anyone else. Public repositories can be seen and
 used by anyone in the world. 
 
-##### Not obvious: 
+#### Not obvious: 
 
 If you delete a private repository, then this will also delete all the private
 forks of this repository on others' accounts. To avoid this, you can first
 change a repository's visibility from private to public, and then delete it.
 
-## Overview of the workflow 
+### Where to store stimuli and experimental data?
+Github repositories don't allow a huge amount of data - so it's best not to
+upload a lot of stimuli (and definitely not experimental data!). For this, we
+should create a project on the [Open Science Framework](https://osf.io). You
+can link the OSF project back to the github repository that contains the
+associated code and upload the stimuli only to the OSF. In the README.md of the
+github repository, you can add a link to the OSF project.
+
+## Overview of the github workflow 
 In the following, the **bold** words are git specific terms which can be
 googled to learn more. 
 
@@ -51,7 +62,7 @@ yours.
 On your personal github account you can make changes (or **'commits'**) to the
 repositories as you please. These **commits** can easily be synchronised back
 to the Goffaux-Lab account by doing **fetch upstream** or by submitting a
-**pull request**.
+**pull request**. See [all open pull requests on Goffaux-Lab](https://github.com/pulls?user=Goffaux-Lab).
 
 If you're working on a **fork** of a repository from Goffaux-Lab (i.e. you
 **forked** it to your personal account), and meanwhile someone makes **commits**
