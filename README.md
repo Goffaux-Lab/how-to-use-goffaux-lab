@@ -5,6 +5,8 @@
     * [Sharing your *public* work (fork, commit, fetch upstream)](#sharing-your-public-work-fork-commit-fetch-upstream)
     * [Sharing your *private* work (transfer, fork, commit, pull request)](#sharing-your-private-work-transfer-fork-commit-pull-request)
     * [Using/Updating existing work (fork, commit, pull request)](#usingupdating-existing-work-fork-commit-pull-request)
+    * [Accepting others' changes (merge)](#accepting-others-changes-merge)
+    * [Getting accepted changes to your personal repo (pull request, merge)](#getting-accepted-changes-to-your-personal-repo-pull-request-merge)
 
 ## General comments
 This is the lab's shared github space. We should upload any code and documents
@@ -169,6 +171,30 @@ We are then allowed to:
 
 Later, the owner of Goffaux-Lab will review and accept the **pull request**.
 After this is done, the whole lab will have access to your changes.
+
+### Accepting others' changes (merge)
+### Getting accepted changes to your personal repo (pull request, merge)
+Once you've **merged** the changes into the Goffaux-Lab repository, you will
+see that this repository is now some number of **commits** ahead of your own
+(it can also be ahead, and behind at the same time - if you also made changes
+on your personal repository that are not on the Goffaux-Lab repository):
+
+![overview](images/after_accepting_PR_to_lab.png)
+
+You probably want to incorporate these changes into your personal repository
+too. This is easy - click on the blue link in the image above, and you will be
+taken to make a **pull request**:
+
+![overview](images/PR_from_lab_to_personal.png)
+
+After clicking the button in the above image, you get to describe what the new
+changes are about:
+
+![overview](images/PR_from_lab_to_personal_2.png)
+
+Once the **pull request** has been made, you'll immediately be asked if you
+want to merge it with your personal repository ([see Accepting others' changes
+(merge)](#accepting-others-changes-merge)).
 
 ### Happy sharing!
 
