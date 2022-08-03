@@ -142,12 +142,14 @@ following the steps from the last section, in which case you may already have a
 local **clone**). You are now free to make **commits** to your **fork** of the
 repository.
 
-Once you've made some new **commits** to the **fork** that improve the version
-that is on Goffaux-Lab, you might like to share it with the lab. To do this you
-must request that the **commits** are synchronised back to the **upstream** on
-Goffaux-Lab. This is done with a **pull request**:
+Once you've made some new **commits** to the **fork** on your personal account
+that make it better than the version that is on Goffaux-Lab, you might like to
+share it with the lab. To do this you must request that the **commits** on your
+personal account are synchronised back to the **upstream** on Goffaux-Lab. This
+is done with a **pull request**:
 
- 1. Click the 'contribute' button.
+ 1. From the repository on your personal account, click the 'contribute'
+    button.
  2. Click 'open pull request'.
 
 ![make_pull_request](images/make_pull_request.png)
