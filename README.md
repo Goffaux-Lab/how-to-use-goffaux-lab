@@ -113,7 +113,7 @@ Comparing the files looks like this:
 ![compare_upstream](images/compare_upstream.png)
 
 ### Sharing your *private* work (transfer, fork, commit, pull request)
-Github will not allow us to fork *private* repositories. But we can
+Github will not allow us to **fork** *private* repositories. But we can
 **transfer** them over to the Goffaux-Lab account. This will mean that the
 repository will appear on the Goffaux-Lab's github account as the **upstream**
 and no longer appear on your personal account. To get a copy back on your
@@ -183,6 +183,7 @@ Later, the owner of Goffaux-Lab will review and accept the **pull request**.
 After this is done, the whole lab will have access to your changes.
 
 ### Accepting others' changes (merge)
+This section is to be completed...
 ### Getting accepted changes to your personal repo (pull request, merge)
 Once you've **merged** the changes into the Goffaux-Lab repository, you will
 see that this repository is now some number of **commits** ahead of your own
