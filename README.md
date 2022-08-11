@@ -179,8 +179,6 @@ We are then allowed to:
  2. Add a longer description of what changes we have made.
  3. Finalise the request.
 
-![make_pull_request](images/make_pull_request.png)
-
 Later, the owner of Goffaux-Lab will review and accept the **pull request**.
 After this is done, the whole lab will have access to your changes.
 
